@@ -7,20 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac070c34-805b-4ffc-bb6c-776cbe996f31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Gossip_exercises/controller/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gossip_exercises/controller/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gossip_exercises/controller/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gossip_exercises/model/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gossip_exercises/web/GossipListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gossip_exercises/web/MemberFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch3_request_and_response/Gossip_exercises/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gossip_exercises/view/Error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch3_request_and_response/Gossip_exercises/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gossip_exercises/controller/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch3_request_and_response/Gossip_exercises/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gossip_exercises/view/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch3_request_and_response/Gossip_exercises/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gossip_exercises/controller/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch3_request_and_response/Gossip_exercises/Success.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gossip_exercises/view/Success.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/Ch3_request_and_response/Gossip_exercises/Error.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/Ch3_request_and_response/Gossip_exercises/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/Ch3_request_and_response/Gossip_exercises/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/Ch3_request_and_response/Gossip_exercises/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/Ch3_request_and_response/Gossip_exercises/Success.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gossip_exercises/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gossip_exercises/controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gossip_exercises/controller/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gossip_exercises/controller/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gossip_exercises/controller/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gossip_exercises/controller/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gossip_exercises/view/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gossip_exercises/view/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,44 +28,46 @@
     <session id="1675089718">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="7" />
-          <entry key="java" value="52" />
+          <entry key="java" value="64" />
           <entry key="jsp" value="1" />
           <entry key="profile" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="7" />
-          <entry key="JAVA" value="52" />
+          <entry key="JAVA" value="64" />
           <entry key="JSP" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5560" />
+          <entry key="java" value="6398" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5560" />
+          <entry key="JAVA" value="6398" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -81,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/controller/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+            <state relative-caret-position="308">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="method#doGet#0;class#Register#0" />
               </folding>
@@ -93,26 +90,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/controller/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Ch4_sesseion_manage/HttpSessionDemo/HttpSessionDemo_Counter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/controller/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="18" column="84" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="84" />
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/labs/CH6/Gossip/src/cc/openhome/controller/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="14" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -136,6 +124,7 @@
       <find>request.getParameter</find>
       <find>view</find>
       <find>username</find>
+      <find>pass</find>
     </findStrings>
     <replaceStrings>
       <replace>session.getAttribute</replace>
@@ -150,7 +139,6 @@
         <option value="$PROJECT_DIR$/src/Error.java" />
         <option value="$PROJECT_DIR$/src/Success.java" />
         <option value="$PROJECT_DIR$/src/Member.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/Login.java" />
         <option value="$PROJECT_DIR$/src/Register.java" />
         <option value="$PROJECT_DIR$/src/test.java" />
@@ -172,13 +160,19 @@
         <option value="$PROJECT_DIR$/src/Ch4_sesseion_manage/HttpSessionDemo/HttpSessionDemo_Logout.java" />
         <option value="$PROJECT_DIR$/src/Ch4_sesseion_manage/HttpSessionDemo/HttpSessionDemo_Counter.java" />
         <option value="$PROJECT_DIR$/src/Gossip_exercises/Success.java" />
-        <option value="$PROJECT_DIR$/src/Gossip_exercises/controller/Register.java" />
         <option value="$PROJECT_DIR$/src/Gossip_exercises/view/Error.java" />
-        <option value="$PROJECT_DIR$/src/Gossip_exercises/controller/Message.java" />
         <option value="$PROJECT_DIR$/src/Gossip_exercises/controller/Delete.java" />
-        <option value="$PROJECT_DIR$/src/Gossip_exercises/view/Member.java" />
         <option value="$PROJECT_DIR$/src/Gossip_exercises/controller/Logout.java" />
+        <option value="$USER_HOME$/Desktop/JSP学习笔记随书光盘/labs/CH6/Gossip/src/cc/openhome/model/UserService.java" />
+        <option value="$PROJECT_DIR$/src/Gossip_exercises/view/Member.java" />
+        <option value="$PROJECT_DIR$/src/Gossip_exercises/controller/Message.java" />
+        <option value="$PROJECT_DIR$/src/Gossip_exercises/Model/UserService.java" />
+        <option value="$PROJECT_DIR$/src/Gossip_exercises/web/MemberFilter.java" />
+        <option value="$PROJECT_DIR$/src/Gossip_exercises/web/GossipListener.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/Gossip_exercises/model/UserService.java" />
         <option value="$PROJECT_DIR$/src/Gossip_exercises/controller/Login.java" />
+        <option value="$PROJECT_DIR$/src/Gossip_exercises/controller/Register.java" />
       </list>
     </option>
   </component>
@@ -196,10 +190,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1100" />
-    <option name="height" value="1391" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1101" />
+    <option name="height" value="1392" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,8 +202,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,13 +224,6 @@
               <item name="NEU_JavaWebProjet" type="b2602c69:ProjectViewProjectNode" />
               <item name="NEU_JavaWebProjet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch4_sesseion_manage" type="462c0819:PsiDirectoryNode" />
-              <item name="HttpSessionDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NEU_JavaWebProjet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NEU_JavaWebProjet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Gossip_exercises" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -251,24 +236,63 @@
             <path>
               <item name="NEU_JavaWebProjet" type="b2602c69:ProjectViewProjectNode" />
               <item name="NEU_JavaWebProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Gossip_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEU_JavaWebProjet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEU_JavaWebProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Gossip_exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEU_JavaWebProjet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEU_JavaWebProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEU_JavaWebProjet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEU_JavaWebProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEU_JavaWebProjet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEU_JavaWebProjet" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NEU_JavaWebProjet" type="b2602c69:ProjectViewProjectNode" />
               <item name="NEU_JavaWebProjet" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEU_JavaWebProjet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEU_JavaWebProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NEU_JavaWebProjet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NEU_JavaWebProjet" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538925228199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539092961510" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH3/Gossip" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -278,10 +302,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\54234\Documents\GitHub\NEU_JavaWebProjet\web\WEB-INF" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Ch4_sesseion_manage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\54234\Documents\GitHub\NEU_JavaWebProjet\src\Gossip_exercises\web" />
       <recent name="C:\Users\54234\Documents\GitHub\NEU_JavaWebProjet\src\Gossip_exercises\controller" />
       <recent name="C:\Users\54234\Documents\GitHub\NEU_JavaWebProjet\web\WEB-INF" />
     </key>
@@ -390,23 +418,26 @@
       <workItem from="1537834159883" duration="596000" />
       <workItem from="1538721856462" duration="1954000" />
       <workItem from="1538878468304" duration="13808000" />
+      <workItem from="1539044880965" duration="180000" />
+      <workItem from="1539083207057" duration="6076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40013000" />
+    <option name="totallyTimeSpent" value="46269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1455" height="975" extended-state="6" />
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49287412" visible="true" weight="0.24982105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49002492" visible="true" weight="0.24982105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.5071259" side_tool="true" visible="true" weight="0.24982105" />
+      <window_info id="Web" order="7" sideWeight="0.5099751" side_tool="true" weight="0.24982105" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3274559" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36104512" />
@@ -433,6 +464,41 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49002492" visible="true" weight="0.24982105" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5099751" side_tool="true" visible="true" weight="0.24982105" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3274559" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36104512" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Graphical Navigator" order="5" type="SLIDING" />
+      <window_info anchor="right" id="UML Diagrams" order="6" type="SLIDING" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -441,72 +507,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH3/Gossip/src/cc/openhome/view/Success.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH3/Gossip/src/cc/openhome/controller/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH3/Gossip/src/cc/openhome/view/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="115" selection-start-line="3" selection-start-column="115" selection-end-line="3" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH3/Gossip/src/cc/openhome/view/Success.java" />
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH3/Gossip/src/cc/openhome/controller/Login.java" />
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH3/Gossip/src/cc/openhome/view/Member.java" />
     <entry file="file://$PROJECT_DIR$/src/test.java" />
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/HttpSessionDemo/src/cc/openhome/Questionnaire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/HttpSessionDemo/src/cc/openhome/Questionnaire.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch3_request_and_response.java" />
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/CookieDemo/src/cc/openhome/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="48" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/CookieDemo/src/cc/openhome/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/CookieDemo/src/cc/openhome/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="40" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/CookieDemo/src/cc/openhome/Index.java" />
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/CookieDemo/src/cc/openhome/Login.java" />
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/CookieDemo/src/cc/openhome/User.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/CookieDemo_login.html" />
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/HttpSessionDemo/src/cc/openhome/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/HttpSessionDemo/src/cc/openhome/Login.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch4_sesseion_manage/HttpSessionDemo/HttpSessionDemo_Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -535,20 +546,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/HttpSessionDemo/src/cc/openhome/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/HttpSessionDemo/src/cc/openhome/Logout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/HttpSessionDemo/src/cc/openhome/User.java" />
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/HttpSessionDemo/src/cc/openhome/Logout.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch4_sesseion_manage/HttpSessionDemo/HttpSessionDemo_Logout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-308">
@@ -580,13 +579,7 @@
     <entry file="file://$PROJECT_DIR$/users/test/profile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/HttpSessionDemo/src/cc/openhome/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/123486/labs/CH4/HttpSessionDemo/src/cc/openhome/Counter.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch4_sesseion_manage/HiddenFieldDemo_Qusetionnaire.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -644,23 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/view/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="method#doGet#0;class#Member#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/controller/Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="82" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/controller/Logout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -673,16 +649,6 @@
         <state relative-caret-position="-792" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/controller/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-          <folding>
-            <element signature="method#doGet#0;class#Register#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ch4_sesseion_manage/HttpSessionDemo/HttpSessionDemo_Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -690,17 +656,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/labs/CH6/Gossip/src/cc/openhome/model/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="99" column="4" lean-forward="true" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/view/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/controller/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="84" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="84" />
+        <state relative-caret-position="598">
+          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/labs/CH6/Gossip/src/cc/openhome/controller/Delete.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/controller/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="82" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/web/MemberFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/web/GossipListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/labs/CH6/Gossip/src/cc/openhome/controller/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="71" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/model/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/JSP学习笔记随书光盘/labs/CH6/Gossip/src/cc/openhome/controller/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="14" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/controller/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="method#doGet#0;class#Register#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gossip_exercises/controller/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="264">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>

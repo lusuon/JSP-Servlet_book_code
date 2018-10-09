@@ -96,6 +96,8 @@ public class Member extends HttpServlet {
         out.close();
     }
 
+    /* ---------------------ch5：Servlet进阶API 重构，该功能将由UserService提供----------------------
+
     //用于过滤.txt文件名
     private class TxtFilenameFilter implements FilenameFilter {
         @Override
@@ -137,6 +139,7 @@ public class Member extends HttpServlet {
 
         return messages;
     }
+    */
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

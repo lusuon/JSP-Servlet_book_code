@@ -57,6 +57,8 @@ public class Message extends HttpServlet {
          */
 	}
 
+	/* ---------------------ch5：Servlet进阶API 重构，该功能将由UserService提供----------------------
+
     private void addMessage(String username, String blabla) throws IOException {
         //信息保存到.txt，以日期做文件名
         String file = USERS + "/" + username + "/" + new Date().getTime() + ".txt";
@@ -65,7 +67,6 @@ public class Message extends HttpServlet {
         writer.write(blabla);
         writer.close();
     }
-    
-    
 
+    */
 }
