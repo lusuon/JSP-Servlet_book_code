@@ -1,5 +1,7 @@
 package Gossip_exercises.view;
 
+import Gossip_exercises.model.UserService;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -74,7 +76,9 @@ public class Member extends HttpServlet {
 
 
         /*  实作步骤3：读取文件并显示信息 */
-        Map<Date,String> message = readMessage(username);
+        //ch5:使用UserService提供方法
+        UserService userService = (UserService) getServletContext().getAttribute("userService");
+        Map<Date,String> message = userService.readMessage(username);
         DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.FULL,DateFormat.FULL, Locale.CHINA);
         for (Date date:message.keySet()){
             out.println("<tr><td style=vertical-align:top;'>");

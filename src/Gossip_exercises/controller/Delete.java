@@ -1,5 +1,7 @@
 package Gossip_exercises.controller;
 
+import Gossip_exercises.model.UserService;
+
 import java.io.*;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,11 +27,18 @@ public class Delete extends HttpServlet {
 
         //删除用户文件夹对应文件
         String username = (String) request.getSession().getAttribute("login");
-        String message = request.getParameter("message"); 
+        String message = request.getParameter("message");
+
+        /*ch5：重构
         File file = new File(USERS + "/" + username + "/" + message + ".txt");
         if(file.exists()) {
             file.delete();
         }
+        */
+        //重构后使用UserService提供方法
+        UserService userService = (UserService) getServletContext().getAttribute("userService");
+        userService.deleteMessage(username, message);
+
         response.sendRedirect(SUCCESS_VIEW);//成功后重定向到会员页
 	}
 }
